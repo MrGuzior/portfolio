@@ -1,6 +1,6 @@
 import React from 'react'
 import {useSelector} from 'react-redux'
-import {selectData} from '../AppSlice'
+import {selectData} from '../../AppSlice'
 
 const Footer = () => {
     const data = useSelector(selectData).main

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {useSelector} from 'react-redux'
-import {selectData} from '../AppSlice'
+import {selectData} from '../../AppSlice'
 
 import Collapse from '@material-ui/core/Collapse'
 
