@@ -1,6 +1,6 @@
 import React from 'react';
 import {useSelector} from 'react-redux'
-import {selectData} from '../../AppSlice'
+import {selectData} from '../../store/AppSlice'
 import Timeline from '@material-ui/lab/Timeline';
 
 import TimelineItem from './TimelineItem'
