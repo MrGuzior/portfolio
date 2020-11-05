@@ -14,6 +14,7 @@ const Footer = () => {
                         })}
                     </ul>
                     <ul className="copyright">
+                        <li>&copy; 2020 Konrad Guzior</li>
                         <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
                     </ul>
                     </div>
