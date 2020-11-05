@@ -44,23 +44,24 @@
     "skillmessage": "",
     "education": [
       {
-        "school": "Fryshuset gymnasium",
-        "degree": "Handel och administration",
-        "graduated": "2013-2017",
-        "description": ""
-      },{
         "school": "<Salt/> School of Applied Technology",
         "degree": "Full Stack JavaScript",
         "graduated": "April 2020 - July 2020",
         "description": "World toughest bootcamp."
+      },
+      {
+        "school": "Fryshuset gymnasium",
+        "degree": "Handel och administration",
+        "graduated": "2013-2017",
+        "description": ""
       }
     ],
     "work": [
       {
-        "company": "TCM Tyresö Cykelmagasin",
-        "title": "It-specialist / salesman – TCM Tyresö Cykelmagasin",
-        "years": "Marc 2013 - Marc 2019",
-        "description": "From a mechanic through a salesman to being in charge of our e-commerce site."
+        "company": "<Salt/>",
+        "title": "Full stack Javascript developer",
+        "years": "September 2020 - present",
+        "description": "Working for a consultant company with worlds toughest bootcamp."
       },
       {
         "company": "Flygeventyr T&T AB",
@@ -69,10 +70,10 @@
         "description": "Showing the world from up above to people in a two seated aircraft."
       },
       {
-        "company": "<Salt/>",
-        "title": "Full stack Javascript developer",
-        "years": "September 2020 - present",
-        "description": "Working for a consultant company with worlds toughest bootcamp."
+        "company": "TCM Tyresö Cykelmagasin",
+        "title": "It-specialist / salesman – TCM Tyresö Cykelmagasin",
+        "years": "Marc 2013 - Marc 2019",
+        "description": "From a mechanic through a salesman to being in charge of our e-commerce site."
       }
     ],
     "skills": [
@@ -129,41 +130,34 @@
     ]
   },
   "portfolio": {
-    "projects": [
-      {
-        "title": "MERN Stack WhatsApp Clone",
-        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "whatsapp-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
-      },
-      {
-        "title": "MERN Stack TikTok Clone",
-        "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "tiktok-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
-      },
-      {
-        "title": "Facebook Clone with React",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "facebook-clone.png",
-        "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
-      },
-      {
-        "title": "Airbnb Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "airbnb-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
-      },
-      {
-        "title": "Netflix Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "netflix-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
-      }
-    ]
+    "projects": []
   },
   "timeline": {
     "projects": [
+      {
+        "date": "October 2020",
+        "title": "<SaltChat/>",
+        "image": "https://user-images.githubusercontent.com/36774785/97587607-dbcc0a00-19fb-11eb-85b4-7c551c59e195.png",
+        "preview": "https://wizardly-mccarthy-d0859c.netlify.app/",
+        "github": "https://github.com/MrGuzior/newchat-client",
+        "description": "Chat application! The requirements for this project were quite challenging. I had to learn new technologies in order to complete it, but in the end, I can say I'm proud of what I have got. I was asked to write a chat application in TypeScript using react. All to say that by the end of the project I became a much more confident developer than I was before. Try it out, maybe this will become the next messenger?"
+      },
+      {
+        "date": "July 2020",
+        "title": "Wastr",
+        "image": "https://github.com/MrGuzior/salt-graduation-project/raw/master/screenshots/Screenshot_1.png?raw=true",
+        "preview": "",
+        "github": "https://github.com/MrGuzior/salt-graduation-project",
+        "description": "First real project! The assignment for our graduation project was to build something that makes society better in some way. We also got the requirement to use GraphQL. We came up with the app Wastr, an app that lets you keep track of the amount of trash you are producing which hopefully saves the environment! This project was really exciting for our group since we were only two people so we had to learn to manage the time we had."
+      },
+      {
+        "date": "March 2020",
+        "title": "Let the man hang",
+        "image": "https://github.com/MrGuzior/Let-The-Man-Hang/raw/master/screens/Screenshot%202020-06-24%20at%2020.01.26.png",
+        "preview": "",
+        "github": "https://github.com/MrGuzior/Let-The-Man-Hang",
+        "description": "My second humble, little project. Hangman you can play on your terminal. In early 2020 when I got the news that I got into <salt/> I knew that for a long time now I would mostly be working in javascript. That's why I spent one-week learning the basics of c#. After a week not only did I have a pretty decent and simple game to play but also... I fell in love with c#. I really enjoyed object-oriented programming and I'm sure I will come back to it one day."
+      },
       {
         "date": "February 2018",
         "title": "Glideit",
@@ -171,27 +165,6 @@
         "preview": "https://mrguzior.github.io/Glideit/",
         "github": "https://github.com/MrGuzior/Glideit",
         "description": "This is the very first project I have ever made. One week after I started to learn javascript I remembered one good idea for a game I had and I started to build it. I had no idea what I was doing back then but hey, it worked! Even though this is a very simple game I'm still proud of it and play it from time to time. Maybe one day I will make a better version of it? This game is a very simple cross country gliding simulator; gather height under clouds, fly towards turn point on the right and try to get back home. Hope you enjoy it!"
-      },{
-        "date": "March 2020",
-        "title": "Let the man hang",
-        "image": "https://github.com/MrGuzior/Let-The-Man-Hang/raw/master/screens/Screenshot%202020-06-24%20at%2020.01.26.png",
-        "preview": "",
-        "github": "https://github.com/MrGuzior/Let-The-Man-Hang",
-        "description": "My second humble, little project. Hangman you can play on your terminal. In early 2020 when I got the news that I got into <salt/> I knew that for a long time now I would mostly be working in javascript. That's why I spent one-week learning the basics of c#. After a week not only did I have a pretty decent and simple game to play but also... I fell in love with c#. I really enjoyed object-oriented programming and I'm sure I will come back to it one day."
-      },{
-        "date": "July 2020",
-        "title": "Wastr",
-        "image": "https://github.com/MrGuzior/salt-graduation-project/raw/master/screenshots/Screenshot_1.png?raw=true",
-        "preview": "",
-        "github": "https://github.com/MrGuzior/salt-graduation-project",
-        "description": "First real project! The assignment for our graduation project was to build something that makes society better in some way. We also got the requirement to use GraphQL. We came up with the app Wastr, an app that lets you keep track of the amount of trash you are producing which hopefully saves the environment! This project was really exciting for our group since we were only two people so we had to learn to manage the time we had."
-      },{
-        "date": "October 2020",
-        "title": "<SaltChat/>",
-        "image": "https://user-images.githubusercontent.com/36774785/97587607-dbcc0a00-19fb-11eb-85b4-7c551c59e195.png",
-        "preview": "https://wizardly-mccarthy-d0859c.netlify.app/",
-        "github": "https://github.com/MrGuzior/newchat-client",
-        "description": "Chat application! The requirements for this project were quite challenging. I had to learn new technologies in order to complete it, but in the end, I can say I'm proud of what I have got. I was asked to write a chat application in TypeScript using react. All to say that by the end of the project I became a much more confident developer than I was before. Try it out, maybe this will become the next messenger?"
       }
     ]
   },
