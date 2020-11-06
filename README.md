@@ -5,7 +5,7 @@ A personal portfolio website that works like a resume.
 
 ## Credits
 
-#### Credits to Tim Baker 
+Credits to Tim Baker 
 <a href='https://github.com/tbakerx/react-resume-template'>Original Repo</a>
 
 
