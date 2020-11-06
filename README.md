@@ -2,6 +2,10 @@
 
 A personal portfolio website that works like a resume.
 
+# Live version
+Live version deployed on netlify, check it out!
+https://konradguzior.netlify.app/
+
 
 ## Credits
 
