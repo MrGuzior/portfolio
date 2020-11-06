@@ -23,7 +23,7 @@ const Header = () => {
                   <h3><span>{data.occupation}</span> {data.description}</h3>
                   <hr />
                   <ul className="social">
-                     {data.social.map(function(network){
+                     {data.social.map(network=>{
                         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
                      })}
                   </ul>

@@ -57,7 +57,7 @@ export default function MediaCard({data}) {
 
       </CardActionArea>
       <CardActions>
-          {data.preview &&
+        {data.preview &&
         <Button 
             size="small" 
             variant="outlined" 
@@ -68,8 +68,7 @@ export default function MediaCard({data}) {
             >
             Preview
         </Button>
-          
-          }
+        }
         <Button 
             size="small" 
             variant="outlined" 

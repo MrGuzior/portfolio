@@ -7,16 +7,16 @@ import Contact from '../Contact/Contact'
 import Timeline from '../Timeline/Timeline'
 
 const App = () => {
-    return (
-      <div className="App">
-        <Header/>
-        <About/>
-        <Resume/>
-        <Timeline/>
-        <Contact/>
-        <Footer/>
-      </div>
-    )
+  return (
+    <div className="App">
+      <Header/>
+      <About/>
+      <Resume/>
+      <Timeline/>
+      <Contact/>
+      <Footer/>
+    </div>
+  )
 }
 
 export default App

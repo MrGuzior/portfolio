@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import {useSelector} from 'react-redux'
 import {selectData} from '../../store/AppSlice'
-
 import Collapse from '@material-ui/core/Collapse'
 
 const Resume = () => {
@@ -9,7 +8,6 @@ const Resume = () => {
    const [isOpen, setOpen] = useState(false)
    const toggle = () => setOpen(!isOpen)
 
-    
    return (
       <section id="resume">
          <div className="row education">
@@ -21,22 +19,19 @@ const Resume = () => {
                   <div className="twelve columns">
                   {
                      data.education.map(education=>{
-                     return <div key={education.school}><h3>{education.school}</h3>
-                     <p className="info">{education.degree} <span>&#8226;</span><em className="date">{education.graduated}</em></p>
-                     <p>{education.description}</p></div>
+                        return <div key={education.school}><h3>{education.school}</h3>
+                        <p className="info">{education.degree} <span>&#8226;</span><em className="date">{education.graduated}</em></p>
+                        <p>{education.description}</p></div>
                      })
                   }
                   </div>
                </div>
             </div>
          </div>
-
          <div className="row work">
-
             <div className="three columns header-col">
                <h1><span>Work</span></h1>
             </div>
-
             <div className="nine columns main-col">
             {
             data.work.map(work=>{
@@ -48,20 +43,13 @@ const Resume = () => {
             }
          </div>
       </div>
-
-
-
          <div className="row skill">
-
             <div className="three columns header-col">
                <h1><span>Skills</span></h1>
             </div>
-
             <div className="nine columns main-col">
-
                <p>{data.skillmessage}
                </p>
-
                <div className="bars" onClick={toggle}>
                   <ul className="skills">
                      {
@@ -85,7 +73,6 @@ const Resume = () => {
          </div>
       </section>
    )
-  
 }
 
 export default Resume

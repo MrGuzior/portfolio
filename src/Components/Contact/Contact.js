@@ -9,10 +9,10 @@ const Contact = () => {
    const [message, setMessage] = useState('')
    const data = useSelector(selectData).main
 
-    const handleClick = (e) => {
+   const handleClick = (e) => {
       e.preventDefault()
       window.open(`mailto:${email}?subject=${subject}&body=${name}: ${message}`)
-    }
+   }
     
     return (
       <section id="contact">
@@ -52,9 +52,9 @@ const Contact = () => {
                   </div>
 					</fieldset>
 				   </form>
-           <div id="message-warning"> Error boy</div>
+           <div id="message-warning"> Error </div>
 				   <div id="message-success">
-                  <i className="fa fa-check"></i>Your message was sent, thank you!<br />
+                  <i className="fa fa-check"></i>Your message was sent.<br />
 				   </div>
            </div>
             <aside className="four columns footer-widgets">
