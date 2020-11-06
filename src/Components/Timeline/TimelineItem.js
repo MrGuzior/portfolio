@@ -33,14 +33,13 @@ const useStyles = makeStyles((theme) => ({
 const CustomizedTimelineItem = ({data}) => {
   const classes = useStyles();
 
-    console.log(data)
 
   return (
 
       <TimelineItem className={classes.timeLineItem}>
 
         <TimelineOppositeContent>
-          <Typography variant="body" color="white">
+          <Typography  >
               {data.date}
           </Typography>
           <Paper elevation={0} className={classes.paper}>

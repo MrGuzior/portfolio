@@ -15,7 +15,7 @@ const CustomizedTimeline = () => {
     <section id="timeline">
       <Timeline align="left" >
 
-      {projects.map(project=><TimelineItem data={project}/>)}
+      {projects.map((project, id)=><TimelineItem key={id} data={project}/>)}
 
       </Timeline>
 
