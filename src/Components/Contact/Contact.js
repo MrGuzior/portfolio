@@ -58,14 +58,14 @@ const Contact = () => {
 				   </div>
            </div>
             <aside className="four columns footer-widgets">
-               <div className="widget widget_contact">
-					   <h4>Address and Phone</h4>
-					   <p className="address">
-						   {data?.name}<br />
-						   {data?.address.city}<br />
-						   <span>{data?.phone}</span>
-					   </p>
-				   </div>
+            <div className="columns contact-details">
+                        <h2>Contact Details</h2>
+                        <p className="address">
+                           <span>{data.name}</span><br />
+                           <span>{data.phone}</span><br />
+                           <span>{data.email}</span>
+                        </p>
+                     </div>
                <div className="widget widget_tweets">
 		         </div>
             </aside>

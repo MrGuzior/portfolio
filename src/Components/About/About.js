@@ -16,14 +16,6 @@ const About = () => {
                   <p>{data.bio}</p>
                   <p>{data.bio2}</p>
                   <div className="row">
-                     <div className="columns contact-details">
-                        <h2>Contact Details</h2>
-                        <p className="address">
-                           <span>{data.name}</span><br />
-                           <span>{data.phone}</span><br />
-                           <span>{data.email}</span>
-                        </p>
-                     </div>
                      <div className="columns download">
                         <p>
                            <a href={data.resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
