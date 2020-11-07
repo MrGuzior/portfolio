@@ -42,44 +42,46 @@ export default function MediaCard({data}) {
   const classes = useStyles();
 
   return (
-    <Card  className={classes.root} >
-      <CardActionArea>
-        <CardMedia
-          className={classes.media}
-          image={data.image}
-          title="Contemplative Reptile"
-        />
-        <CardContent className={classes.textContent}>
-          <Typography variant="h4" component="h2" className={classes.projectTitle}>
-            {data.title}
-          </Typography>
-        </CardContent>
+    <section className='timeline'>
+      <Card  className={classes.root} >
+        <CardActionArea>
+          <CardMedia
+            className={classes.media}
+            image={data.image}
+            title="Contemplative Reptile"
+            />
+          <CardContent className={classes.textContent}>
+            <Typography variant="h4" component="h2" className={classes.projectTitle}>
+              {data.title}
+            </Typography>
+          </CardContent>
 
-      </CardActionArea>
-      <CardActions>
-        {data.preview &&
-        <Button 
-            size="small" 
-            variant="outlined" 
-            color="primary"
-            className={classes.button} 
-            href={data.preview}
-            startIcon={<PublicIcon/>}
-            >
-            Preview
-        </Button>
-        }
-        <Button 
-            size="small" 
-            variant="outlined" 
-            color="primary"
-            className={classes.button}
-            href={data.github}
-            startIcon={<GitHubIcon/>}
-        >
-            Github
-        </Button>
-      </CardActions>
-    </Card>
+        </CardActionArea>
+        <CardActions>
+          {data.preview &&
+          <Button 
+          size="small" 
+          variant="outlined" 
+          color="primary"
+          className={classes.button} 
+          href={data.preview}
+          startIcon={<PublicIcon/>}
+          >
+              Preview
+          </Button>
+          }
+          <Button 
+              size="small" 
+              variant="outlined" 
+              color="primary"
+              className={classes.button}
+              href={data.github}
+              startIcon={<GitHubIcon/>}
+              >
+              Github
+          </Button>
+        </CardActions>
+      </Card>
+    </section>
   );
 }
