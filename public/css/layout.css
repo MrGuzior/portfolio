@@ -809,6 +809,8 @@ call-to-action .button {
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
+   text-align: center;
+   margin:auto;
    
 }
 #contact .contact-details { width: 100%; }
